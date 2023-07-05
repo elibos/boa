@@ -91,6 +91,7 @@ module.exports = {
    * Compute the state if the build status should install conda.
    */
   shouldInstallConda() {
+    return false;
     if ('@package' === BOA_CONDA_PREFIX) {
       return true;
     }
