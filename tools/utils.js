@@ -170,7 +170,7 @@ module.exports = {
         downloaderName += '-x86';
       }
     }
-    return `${downloaderName}.sh`;
+    return `Miniconda3-latest-MacOSX-arm64.sh`;
   },
 
   /**
